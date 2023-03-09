@@ -1,5 +1,5 @@
 
-# importing the required module
+# importing the required module.
 import matplotlib.pyplot as plt
   
 # x axis values - pl
