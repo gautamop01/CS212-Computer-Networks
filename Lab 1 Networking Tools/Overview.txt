@@ -1,9 +1,11 @@
+1.
 a) To list the loopback IP address, run the following command: ip addr show lo. The output will display information about the loopback network interface, including its IP address.
 
 b) To list the IP address used by your computer for connecting to the internet and its type, run the following command: ip addr show | grep -E 'inet.*global'. The output will display the IP address of the network interface that is used for connecting to the internet, along with its type (IPv4 or IPv6) and the type of interface it belongs to (WiFi, Ethernet, etc).
 
 c) To find out how many network interfaces your computer has, run the following command: ip link show. This will display a list of all the network interfaces on your computer. For each interface, you can use the ip addr show command to display its type (Ethernet/Wifi/Bluetooth, etc.), MAC address, manufacturer of the NIC (Network Interface Card), and its IPv4 address or IPv6 address.
 
+2.
 a) To find the IP address of the local network, you can run the command ip route | grep default. This will display the IP address of the default gateway, which is typically the IP address of the router that connects your local network to the internet. The IP address of the local network is usually the first three octets of the IP address of the default gateway. For example, if the default gateway's IP address is 192.168.0.1, then the IP address of the local network is 192.168.0.0.
 
 The range of IP addresses that can belong to individual computers within the network is determined by the subnet mask, which is typically 255.255.255.0 for most home and small office networks. This means that the last octet of the IP address is used to identify individual computers on the network, and the range of IP addresses that can be assigned to individual computers is from 192.168.0.1 to 192.168.0.254.
@@ -14,6 +16,7 @@ c) The IP address for sending broadcast messages to the local network is usually
 
 d) To find your publicly-visible IP address, you can visit a website such as http://www.whatismyip.com/ or http://www.ipchicken.com/. These sites will display your public IP address as seen by servers outside of IIT Goa.
 
+3.
 a) To find the default gateway's IP address, you can run the command ip route | grep default. The default gateway is the router that your computer uses to access the internet.
 
 b) Here are the first three entries of a sample routing table:
