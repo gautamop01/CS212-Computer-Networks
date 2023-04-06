@@ -2,7 +2,7 @@ import socket
 import os
 
 # Define the host and port number
-HOST = '10.196.13.94'
+HOST = 'localhost' # if you want to see hosted website in other machine you can change "localhost" to your private ip
 PORT = 9090
 
 # Define the directory where the website files are stored
