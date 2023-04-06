@@ -2,7 +2,7 @@
 # Computer Networks Course
 ## Lab 1 - Basic Networking Tools and Wireshark
 ## Lab 2 - Sockets + Make A Chat Room (Logic Based On Other chatting platform)
-### In this lab 
+### In this lab :
 #### The codes in the description are instructions for designing and implementing a series of programs to demonstrate the use of UDP and TCP sockets in Python.
 #### Part 1 involves creating a UDP Client-Server system that sends requests for either the current date or time, and receives responses from the server with the requested information.
 #### Part 2 involves creating a TCP Client-Server system where the client sends an arithmetic expression to the server, and the server calculates the result and sends it back to the client. The client can continue to send arithmetic expressions until it decides to quit.
