@@ -3,6 +3,17 @@
 ## Lab 1 - Basic Networking Tools and Wireshark
 ## Lab 2 - Sockets + Make A Chat Room (Logic Based On Other chatting platform)
 ## Lab 3 - Principles of Reliable Data Transfer
+### In this lab i completed these codes: 
+#### Testbench.py: This file is used to run the simulations and test the reliability of the different protocols. It contains the main function that initiates the simulation and sets the parameters such as the number of messages to send, the probability of packet corruption (Pc), and the probability of packet loss (Pl).
+#### Channel.py: This file implements a model for an unreliable channel over which packets can be corrupted or lost. It takes in the parameters Pc, Pl, and Delay, and simulates the behavior of the channel.
+#### Protocol_rdt1.py: This file implements the trivial protocol rdt1.0, which works only if the channel is assumed to be ideal. It is used to test the behavior of the channel when Pc = 0.
+
+#### Protocol_rdt2.py: This file implements the simple ACK/NAK based protocol rdt2.0 that can work when data packets can get corrupted. It is used to test the behavior of the channel when Pc > 0.
+
+#### Protocol_rdt22.py: This file implements the alternating-bit protocol rdt2.2, which can work even when both the data and ack packets can get corrupted. It is used to test the behavior of the channel when both Pc and Pl are greater than 0.
+
+#### Protocol_rdt3.py: This file implements the alternating-bit protocol with timeouts (rdt3.0), which can work when data or ack packets can be corrupted or lost. It is used to test the behavior of the channel when both Pc and Pl are greater than 0.
+
 ## Lab 4 - Sliding Window Protocols
 #### This lab assignment involves implementing the Go-back-N and Selective Repeat protocols for reliable data transfer by translating their FSM descriptions into Python code. The aim is to perform simulations to validate the implementation and gain insights on how the performance of these protocols varies with various parameters.
 #### The submission for this team assignment should include a typeset report in pdf format, a Python file containing the implementation of the Selective Repeat protocol, and no other files. The Go-Back-N protocol is provided as a template.
