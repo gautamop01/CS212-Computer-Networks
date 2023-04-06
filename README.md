@@ -4,9 +4,7 @@
 ## Lab 2 - Sockets + Make A Chat Room (Logic Based On Other chatting platform)
 ## Lab 3 - Principles of Reliable Data Transfer
 ## Lab 4 - Sliding Window Protocols
-### Description of LAB 4: Sliding Window Protocols
-
-This lab assignment involves implementing the Go-back-N and Selective Repeat protocols for reliable data transfer by translating their FSM descriptions into Python code. The aim is to perform simulations to validate the implementation and gain insights on how the performance of these protocols varies with various parameters.
+### This lab assignment involves implementing the Go-back-N and Selective Repeat protocols for reliable data transfer by translating their FSM descriptions into Python code. The aim is to perform simulations to validate the implementation and gain insights on how the performance of these protocols varies with various parameters.
 
 The submission for this team assignment should include a typeset report in pdf format, a Python file containing the implementation of the Selective Repeat protocol, and no other files. The Go-Back-N protocol is provided as a template.
 
